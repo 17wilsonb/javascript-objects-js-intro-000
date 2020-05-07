@@ -1,5 +1,5 @@
 var playlist = {
-  artist: song
+  artist: ""
 };
 
 // updatePlaylist - add artist:song as a keypair to the playlist
