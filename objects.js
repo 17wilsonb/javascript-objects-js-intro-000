@@ -1,6 +1,4 @@
-var playlist = {
-  halsey: "Sorry"
-};
+var playlist = {};
 
 // updatePlaylist - add artist:song as a keypair to the playlist
 function updatePlaylist(playlist, artist, song){
