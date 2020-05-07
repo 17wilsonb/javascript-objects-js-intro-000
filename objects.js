@@ -4,7 +4,8 @@ var playlist = {
 
 // updatePlaylist - add artist:song as a keypair to the playlist
 function updatePlaylist(playlist, artist, song){
-  return playlist.assign({},playlist,{artist:song});
+  playlist.artist = song;
+  return playlist;
 }
 
 // removeFromPlaylist - remove artist:song as a keypair from the playlist
