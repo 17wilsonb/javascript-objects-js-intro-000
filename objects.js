@@ -10,6 +10,6 @@ function updatePlaylist(playlist, artist, song){
 
 // removeFromPlaylist - remove artist:song as a keypair from the playlist
 function removeFromPlaylist(playlist, artist){
-  delete platlist.artist;
+  delete playlist.artist;
   return playlist;
 }
